@@ -1,6 +1,0 @@
-Đẩy đề lên: tạo 1 file mới ghi nội dung lưu lại
- thứ tự
-git pull
-git add -A
-git commit -m "cau 1"
-git push
