@@ -2,7 +2,7 @@ public class MyThread extends Thread {
     int iNumber = 12345;
 
     public void methodOne() {
-        Thread t = new Thread(() {
+        Thread t = new Thread(() -> {
             System.out.println( iNumber);
         });
         t.start();
@@ -17,4 +17,6 @@ public class MyThread extends Thread {
         MyThread obj = new MyThread();
         obj.methodOne();
     }
+
+    /// Bai 1 ghi cẩn thận có dư 1 chút
 }
